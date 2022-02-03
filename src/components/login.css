@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+.loginPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right top, #12698f, #286a91, #3d78a5, #5287b9, #6895cd, #69a3dc, #69b1ea, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.image{
+    height: 13rem;
+    width: 19rem;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+.loginForm{
+    height: auto;
+    width: 30rem;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 0.8rem 3.2rem 0 rgba(9, 12, 58, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 0.4rem );
+    border-radius: 1rem;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    align-items: center;
+    text-align: center;
+    /* margin: 90px 33% 90px 33%; */
+    padding: 2.5rem;
+}
+
+.loginForm h3{
+    font-size: 2.3rem;
+    font-family: 'Licorice', cursive;
+    font-weight: 900;
+}
+
+.loginForm input{
+    width: 60%;
+    display: block;
+    margin: 1.6rem auto;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0.09rem solid rgb(78, 78, 78);
+    padding: 0.3rem 0.8rem;
+}
+
+.loginForm button{
+    /* background-color: rgb(10, 68, 107); */
+    background-color: rgb(14, 98, 155);
+    cursor: pointer;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.8rem;
+    margin-bottom: 1.4rem;
+}
+
+img{
+    width: 100%;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(10, 68, 107);
+    font-weight: 700;
+}
